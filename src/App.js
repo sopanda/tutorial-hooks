@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Classic from "./useState/Classic";
+// import Batching from "./useState/Batching";
+// import InitialValue from "./useState/InitialValue";
+// import Playground from "./useEffect/Playground";
+// import CleanupEventListener from "./useEffect/CleanupEventListener";
+// import CleanupTestComponent from "./useEffect/CleanupTestComponent";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Classic />;
+  // return <Batching />;
+  // return <InitialValue />;
+  // return <Playground />;
+  // return <CleanupEventListener />;
+  // return <CleanupTestComponent />;
 }
 
 export default App;
